@@ -1,0 +1,111 @@
+[16:47:13] [main/INFO]: Loading for game Minecraft 1.17
+[16:47:13] [main/WARN]: Warnings were found! 
+ - Conflicting versions found for fabric-api-base: used 0.3.0+a02b4463d5, also found 0.3.0+a02b4463a0
+ - Conflicting versions found for fabric-screen-api-v1: used 1.0.3+b7ab6121d5, also found 1.0.3+b7ab6121a0
+ - Conflicting versions found for fabric-resource-loader-v0: used 0.4.7+b7ab6121a0, also found 0.4.7+b7ab6121d5
+[16:47:13] [main/INFO]: [FabricLoader] Loading 51 mods: fabric-renderer-api-v1@0.4.2+a02b4463d5, fabric-keybindings-v0@0.2.2+36b77c3ed5, fabricloader@0.11.3, fabric-structure-api-v1@1.1.10+be9da310d5, fabric-containers-v0@0.1.12+a02b4463d5, lithium@0.7.0, fabric-dimensions-v1@2.0.10+a02b4463d5, fabric-object-builder-api-v1@1.10.9+b7ab6121d5, java@16, fabric-game-rule-api-v1@1.0.6+a02b4463d5, fabric-api-base@0.3.0+a02b4463d5, fabric-rendering-data-attachment-v1@0.1.5+a02b4463d5, fabric-textures-v0@1.0.6+a02b4463d5, tweakeroo@0.10.0-dev.20210608.211857, fabric-rendering-fluids-v1@0.1.13+a02b4463d5, fabric-blockrenderlayer-v1@1.1.5+a02b4463d5, fabric-lifecycle-events-v1@1.4.4+a02b4463d5, fabric-renderer-registries-v1@3.2.0+a02b4463d5, fabric-loot-tables-v1@1.0.4+a02b4463d5, fabric@0.34.9+1.17, fabric-particles-v1@0.2.4+a02b4463d5, fabric-networking-v0@0.3.2+92519afad5, fabric-api-lookup-api-v1@1.0.2+a02b4463d5, fabric-networking-blockentity-v0@0.2.11+a02b4463d5, fabric-screen-handler-api-v1@1.1.8+a02b4463d5, minecraft@1.17, modmenu@2.0.0-beta.7, fabric-command-api-v1@1.1.1+a02b4463d5, fabric-screen-api-v1@1.0.3+b7ab6121d5, fabric-tool-attribute-api-v1@1.2.12+b7ab6121d5, fabric-renderer-indigo@0.4.8+a02b4463d5, fabric-item-api-v1@1.2.4+a02b4463d5, fabric-events-interaction-v0@0.4.8+a02b4463d5, fabric-crash-report-info-v1@0.1.5+be9da310d5, fabric-entity-events-v1@1.1.0+a02b4463d5, fabric-rendering-v0@1.1.2+92519afad5, fabric-key-binding-api-v1@1.0.4+a02b4463d5, fabric-rendering-v1@1.6.0+a02b4463d5, fabric-resource-loader-v0@0.4.7+b7ab6121a0, malilib@0.10.0+dev.22, fabric-content-registries-v0@0.2.2+a02b4463d5, fabric-tag-extensions-v0@1.1.4+a02b4463d5, fabric-biome-api-v1@3.1.11+9e521e13d5, fabric-registry-sync-v0@0.7.9+a02b4463d5, fabric-commands-v0@0.2.2+92519afad5, fabric-mining-levels-v0@0.1.3+92519afad5, fabric-networking-api-v1@1.0.11+b7ab6121d5, fabric-events-lifecycle-v0@0.2.1+92519afad5, fabric-item-groups-v0@0.2.10+b7ab6121d5, fabric-models-v0@0.3.0+a02b4463d5, fabric-object-builders-v0@0.7.3+a02b4463d5
+[16:47:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/nicol/Desktop/Nueva%20carpeta/Minecraft/Oserver%201.17/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
+[16:47:14] [main/WARN]: The requested compatibility level JAVA_16 is higher than the level supported by the active subsystem 'Knot/Fabric' which supports JAVA_14. This is not a supported configuration and instability may occur.
+[16:47:14] [main/INFO]: Compatibility level set to JAVA_16
+[16:47:14] [main/INFO]: Loaded configuration file for Lithium: 77 options available, 0 override(s) found
+[16:47:15] [main/WARN]: @Mixin target net/minecraft/class_3218$class_5526 is public in fabric-lifecycle-events-v1.mixins.json:ServerWorldEntityLoaderMixin and should be specified in value
+[16:47:15] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
+[16:47:15] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
+[16:47:17] [main/WARN]: Failed to add PDH Counter: \Archivo de paginación(_Total)\% Usage, Error code: 0xC0000BB8
+[16:47:17] [main/WARN]: Failed to add counter for PDH object: Archivo de paginación
+[16:47:17] [main/WARN]: Disabling further attempts to query Paging File.
+[16:47:26] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[16:47:27] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 2.146 ms
+[16:47:27] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:47:28] [main/INFO]: Found new data pack Fabric Mods, loading it automatically
+[16:47:29] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:47:29] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:47:29] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:47:29] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:47:29] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:47:29] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1))
+[16:47:32] [Worker-Main-4/INFO]: Loaded 7 recipes
+[16:47:33] [Worker-Main-4/INFO]: Loaded 1137 advancements
+[16:47:36] [Server thread/INFO]: Starting minecraft server version 1.17
+[16:47:36] [Server thread/INFO]: Loading properties
+[16:47:36] [Server thread/INFO]: Default game type: SURVIVAL
+[16:47:36] [Server thread/INFO]: Generating keypair
+[16:47:36] [Server thread/INFO]: Starting Minecraft server on 192.168.0.17:25565
+[16:47:37] [Server thread/INFO]: Using default channel type
+[16:47:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:47:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:47:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:47:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:47:39] [Server thread/INFO]: Preparing level "world"
+[16:47:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:47:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:47:47] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:47:48] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:47:48] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:47:49] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:47:49] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:47:50] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:47:50] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:47:51] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:47:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:47:52] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:47:52] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[16:47:53] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[16:47:53] [Worker-Main-4/INFO]: Preparing spawn area: 15%
+[16:47:54] [Worker-Main-6/INFO]: Preparing spawn area: 20%
+[16:47:54] [Worker-Main-4/INFO]: Preparing spawn area: 52%
+[16:47:55] [Worker-Main-5/INFO]: Preparing spawn area: 58%
+[16:47:55] [Worker-Main-5/INFO]: Preparing spawn area: 58%
+[16:47:58] [Worker-Main-5/INFO]: Preparing spawn area: 59%
+[16:47:58] [Worker-Main-6/INFO]: Preparing spawn area: 59%
+[16:47:58] [Worker-Main-4/INFO]: Preparing spawn area: 59%
+[16:47:58] [Worker-Main-4/INFO]: Preparing spawn area: 59%
+[16:47:58] [Worker-Main-5/INFO]: Preparing spawn area: 59%
+[16:47:58] [Worker-Main-4/INFO]: Preparing spawn area: 71%
+[16:47:59] [Worker-Main-6/INFO]: Preparing spawn area: 71%
+[16:47:59] [Worker-Main-6/INFO]: Preparing spawn area: 72%
+[16:48:00] [Worker-Main-5/INFO]: Preparing spawn area: 72%
+[16:48:00] [Worker-Main-4/INFO]: Preparing spawn area: 84%
+[16:48:01] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[16:48:01] [Worker-Main-4/INFO]: Preparing spawn area: 84%
+[16:48:02] [Worker-Main-4/INFO]: Preparing spawn area: 84%
+[16:48:02] [Worker-Main-5/INFO]: Preparing spawn area: 84%
+[16:48:03] [Worker-Main-4/INFO]: Preparing spawn area: 94%
+[16:48:03] [Worker-Main-6/INFO]: Preparing spawn area: 99%
+[16:48:05] [Server thread/INFO]: Time elapsed: 25095 ms
+[16:48:05] [Server thread/INFO]: Done (26.256s)! For help, type "help"
+[16:48:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2300ms or 46 ticks behind
+[16:48:36] [Server thread/INFO]: ch4jkej[/192.168.0.17:57558] logged in with entity id 259 at (35.998825930249545, 75.0, -34.69999998807907)
+[16:48:37] [Server thread/INFO]: ch4jkej joined the game
+[16:48:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5485ms or 109 ticks behind
+[16:49:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
+[16:53:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4884ms or 97 ticks behind
+[16:56:32] [Server thread/INFO]: ch4jkej has made the advancement [Stone Age]
+[16:56:45] [Server thread/INFO]: Set the time to 0
+[16:57:39] [Server thread/INFO]: ch4jkej lost connection: Disconnected
+[16:57:39] [Server thread/INFO]: ch4jkej left the game
+[16:57:46] [Server thread/INFO]: Stopping server
+[16:57:46] [Server thread/INFO]: Saving players
+[16:57:46] [Server thread/INFO]: Saving worlds
+[16:57:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:57:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:57:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:57:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:57:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:57:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:57:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:57:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:57:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
